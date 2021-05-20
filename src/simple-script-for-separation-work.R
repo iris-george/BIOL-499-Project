@@ -3,7 +3,7 @@
 # This code contains a one-script example for a reproducibility example
 ##########
 ##########
-# AUTHOR: Cole B. Brookson
+# AUTHOR: Iris M. George
 # DATE OF CREATION: 2021-05-20
 ##########
 ##########
