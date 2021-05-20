@@ -1,4 +1,4 @@
-# University of Alberta BIOL 499 Project
+# Reproducibility Workshop
 
 1. Description of the repository PROJECT
 2. Contact information for you/the point person on the repo
