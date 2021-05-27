@@ -11,7 +11,7 @@
 # set-up =======================================================================
 library(here)
 
-# data wrangling ===============================================================
+# data wrangling ===========================================================
 
 # This script reads in iris data and performs some simple data wrangling, then writes out files needed for model fitting 
 
