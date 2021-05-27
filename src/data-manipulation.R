@@ -12,7 +12,7 @@
 # set-up =============================================================================================
 
 library(here) # lets you use relative paths istead of setwd all the time --> looks for the file and finds the relative path 
-library(tidyverse)
+library(ggplot2)
 
 # Naming Conventions
 
