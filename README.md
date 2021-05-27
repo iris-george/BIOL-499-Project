@@ -14,5 +14,5 @@ If you want to take an interactive look at the results, you can do so through th
 ### Instructions:
 
 1. Launch this repo in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iris-george/Reproducibility-Workshop/master?urlpath=rstudio)
-2. Open the '__main__.R' file, and "source" it by pressingthe 'source' button in the top right hand corner of the script window. 
+2. Open the `__main__.R` file, and "source" it by pressingthe `source` button in the top right hand corner of the script window. 
 3. Interact with the code as you wish!
