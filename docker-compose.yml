@@ -1,0 +1,13 @@
+version: "3.5"
+services: 
+  reproducibility-workshop:
+    build:
+      context: .
+    volumes:
+      - .:/main
+      
+# line 3 tells us what image we are actually building (i.e. the name of our 
+# repo)
+# so here, the volumes .:/main will read the input file and write out the 
+# expanded file - mapping the folder (x) to the main folder (matches the 
+# working directory specified in the Dockerfile)

@@ -11,7 +11,8 @@
 
 # set-up =============================================================================================
 
-library(here) # lets you use relative paths istead of setwd all the time --> looks for the file and finds the relative path 
+# lets you use relative paths istead of setwd all the time --> looks for the file and finds the relative path 
+library(readr)
 library(ggplot2)
 
 # Naming Conventions
@@ -45,7 +46,7 @@ adding_sum(9, 15)
 
 #### SVC Lengths ####
 
-SVC <- read_csv(here("./data/SVC_data.csv"))
+SVC <- read_csv("./data/SVC_data.csv")
 
 c2 <- SVC %>%
   filter(SVC_abundance == 1) %>%
@@ -137,7 +138,7 @@ SVC_lengths <- combine(list(c2, c3, c4, c5, c6, c7))
 
 # writing files ==================================================================
 
-write_csv(SVC, here("./data/SVC_test.csv"))
+write_csv(SVC, "./data/SVC_test.csv")
 
 # editing this file 
 
